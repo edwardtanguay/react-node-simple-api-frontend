@@ -10,7 +10,7 @@ export const PageInfo = () => {
 			<Helmet>
 				<title>{appTitle} - Info</title>
 			</Helmet>
-			<p>this is a test</p>
+			<p>This is the info page.</p>
 		</div>
 	);
 };
