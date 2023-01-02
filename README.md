@@ -1,4 +1,4 @@
-# React frontend with simple Node/Express backend with one route
+# React frontend with simple Node/Express backend
 
 This is the minimal starting point for a basic React-frontend with Node/Express-backend. Frontend is Vite React with Sass, React Router, useContext and a CLI command to create pages (`npm run cp`), while the backend is a minimal Node/Express but with a simple MVC structure with server.ts which calls a function in model.ts. This is a good project if you want to build a multi-page application that has a backend that serves it data.
 
@@ -6,11 +6,18 @@ This is the minimal starting point for a basic React-frontend with Node/Express-
 
 ## features
 
-- **frontend:** Vite/React with Sass, TypeScript and ES6 modules
-- **backend:** Node/Express with TypeScript and ES6 modules
-- **database:** [Lowdb](https://www.npmjs.com/package/lowdb) (one JSON file in backend)
-- **authentication:** simple PIN which is an environment variable in the backend, i.e. all POST/PATCH/DELETE backend routes are protected
-- **toastify notifications**: easy-to-implement app messages that pop out with animation in e.g. upper-right-hand corner, see [react-toastify](https://www.npmjs.com/package/react-toastify)
+- **frontend:** 
+  - Vite/React 
+  - Sass
+  - TypeScript
+  - ES6 modules
+  - React Router
+  - useContext
+- **backend:** 
+  - Node/Express 
+  - TypeScript 
+  - ES6 modules
+  - simple MVC Structure (`server.ts`/`model.ts`)
 
 ## install
 
